@@ -1,0 +1,65 @@
+{
+  "queries": [
+    {
+      "label": "agent-card.json",
+      "query": "filename:agent-card.json path:.well-known",
+      "total_count": 466,
+      "fetched": 466
+    },
+    {
+      "label": "agent.json",
+      "query": "filename:agent.json path:.well-known",
+      "total_count": 517,
+      "fetched": 500
+    }
+  ],
+  "generated_at": "2026-10-16T11:19:03Z",
+  "unique_repos": 634,
+  "unique_owners": 247,
+  "top_owner": "CSOAI-ORG",
+  "top_owner_type": "User",
+  "top_owner_repo_count": 371,
+  "top_owner_share_pct": 58.5,
+  "top_10_owners": [
+    [
+      "CSOAI-ORG",
+      371
+    ],
+    [
+      "inference-gateway",
+      6
+    ],
+    [
+      "srotzin",
+      4
+    ],
+    [
+      "newsbubbles",
+      3
+    ],
+    [
+      "frijal",
+      2
+    ],
+    [
+      "ChristFollower873461",
+      2
+    ],
+    [
+      "SunrisesIllNeverSee",
+      2
+    ],
+    [
+      "efekurucay",
+      2
+    ],
+    [
+      "aipath512",
+      2
+    ],
+    [
+      "nirholas",
+      2
+    ]
+  ]
+}
