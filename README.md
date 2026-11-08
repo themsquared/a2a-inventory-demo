@@ -1,5 +1,7 @@
 # a2a-inventory-demo
 
+> 📖 **Read the write-up:** [Is Anyone Actually Using A2A? We Checked GitHub](https://webofmike.com/a2a-reality-check/)
+
 **Problem:** The Agent2Agent (A2A) protocol just passed its one-year mark under Linux Foundation governance. The announcement says it's "production-ready," cites 150+ supporting organizations, and names active production deployments across supply chain, financial services, insurance, and IT operations. None of that is independently counted — it's the foundation and its vendors describing their own ecosystem. An [Ask HN thread](https://hn.svelte.dev/item/48582679) asking "is anyone using A2A?" got 92 points and a top reply calling the whole premise wrong.
 
 **Value proposition:** You can't see anyone's private production traffic from the outside. But A2A ships with its own discovery mechanism — a `.well-known/agent-card.json` file an agent publishes so other agents can find it — and that file, when published, is public by construction. It's the one signal of real-world A2A adoption that isn't filtered through a vendor's press release. This repo scans GitHub's public code index for it and reports who's actually publishing one.
